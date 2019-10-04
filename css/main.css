@@ -1,0 +1,53 @@
+body {
+    background-image: url('../media/bg.png');
+    background-size: cover
+}
+
+ul {
+    list-style-type: none;
+}
+
+li{
+    display:inline;
+    list-style-type:none;
+   }
+
+
+
+#box {
+    text-align: center;
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+
+}
+
+#github {
+    width: 64px;
+    background-image: url("../Media/ghwhite.png");
+}
+
+#github:hover{
+    transform: scale(1.1);
+}
+
+#youtube {
+    width: 64px;
+    background-image: url("../Media/ytwhite.png");
+}
+
+#youtube:hover{
+    transform: scale(1.1);
+}
+
+#gtarma{
+    width: 64px;
+    background-image: url("../Media/gtawhite.png");
+}
+
+#gtarma:hover{
+    transform: scale(1.1);
+}

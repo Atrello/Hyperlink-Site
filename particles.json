@@ -1,0 +1,32 @@
+{
+    "particles":{
+        "number":{
+            "value":100
+        },
+        "color": {
+          "value": "#FF8000"
+        },
+        "shape":{
+            "type":"circle",
+            "stroke":{
+                "width":5,
+                "color":"#FF8000"
+            }
+        },
+        "opacity":{
+            "value":0.5,
+            "random":true
+        },
+        "size":{
+          "value": 2
+        },
+        "line_linked":{
+            "enable":true,
+            "distance":115
+        },
+        "move":{
+            "enable":true,
+            "speed": 1.5
+        }
+    }
+}
