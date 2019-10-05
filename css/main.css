@@ -9,6 +9,7 @@ ul {
 }
 
 li{
+    margin: 0 10px;
     display:inline;
     list-style-type:none;
 }
