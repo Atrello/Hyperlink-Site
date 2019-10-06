@@ -3,24 +3,7 @@ body {
     background-size: cover
 }
 
-#box ul {
-    float: left;
-    list-style-type: none;
-    text-align: center;
-}
-
-#box li{
-    width: 16px;
-    margin: 0 10px;
-    display:inline;
-    list-style-type:none;
-}
-
-#box li :hover{
-    transform: scale(1.1);
-}
-
-#box {
+.box {
     text-align: center;
     position: absolute;
     bottom: 50%;
@@ -30,6 +13,27 @@ body {
     transform: translateX(-50%) translateY(-50%);
 }
 
-footer{
+.box ul {
+    float: left;
+    list-style-type: none;
     text-align: center;
+}
+
+.box img{
+    width: auto;
+    height: 64px;
+}
+
+.box img:hover{
+    transform: scale(1.1);
+}
+
+.box li{
+    margin: 0 10px;
+    display:inline;
+    list-style-type:none;
+}
+
+footer{
+text-align: center;
 }
