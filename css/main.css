@@ -38,6 +38,7 @@ i.fab:hover {
     float: left;
     list-style-type: none;
     text-align: center;
+    padding-inline-start: 0;
 }
 
 .box li{
