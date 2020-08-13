@@ -43,12 +43,16 @@ i.fab:hover {
 .box ul {
   float: left;
   list-style-type: none;
-  text-align: center;
   padding-inline-start: 0;
 }
 .box ul li {
   margin: 0 10px;
   display: inline;
+}
+@media screen and (max-width: 768px) {
+  .box ul li {
+    display: block;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */
