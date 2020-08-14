@@ -42,8 +42,12 @@ i.fab:hover {
 }
 .box ul {
   float: left;
-  list-style-type: none;
   padding-inline-start: 0;
+}
+@media screen and (max-width: 768px) {
+  .box ul {
+    transform: translateX(50%);
+  }
 }
 .box ul li {
   margin: 0 10px;
@@ -52,6 +56,7 @@ i.fab:hover {
 @media screen and (max-width: 768px) {
   .box ul li {
     display: block;
+    margin: 15px 0;
   }
 }
 

@@ -38,9 +38,10 @@ i.fas,
 
   ul
     float: left
-    list-style-type: none
     padding-inline-start: 0
 
+    @media screen and (max-width: 768px)
+      transform: translateX(50%)
 
     li
       margin: 0 10px
@@ -48,3 +49,4 @@ i.fas,
 
       @media screen and (max-width: 768px)
         display: block
+        margin: 15px 0
